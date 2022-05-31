@@ -33,6 +33,7 @@ main {
     height: 100%;
     max-width: 60%;
     background-color: #FAFAFA;
+    padding-top: 25px;
 }
 form {
     height: 77%;
@@ -43,9 +44,10 @@ form {
     flex-direction: column;
     height: 33%;
     justify-content: space-around;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: bold;
     width: 95%;
+    margin-bottom: 25px;
 }
 .form-container {
     padding: 3rem 2rem;
@@ -53,14 +55,46 @@ form {
     flex-direction: column;
     height: 50%;
     justify-content: space-around;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: bold;
     width: 95%;
+    margin-bottom: 3rem;
 }
 fieldset{
     border: none;
     display: flex;
     gap: 3rem;
+    margin-bottom: 20px;
+}
+.form-cell {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    width: 50%;
+}
+.form-cell label {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+form input {
+    border: 1px solid #D6D9DC;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+}
+button {
+    border: none;
+    border-radius: 6px;
+    padding: 15px 55px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    background-color: #27A6F0;
+    color: white;
+}
+
+.button-area {
+    padding-top: 40px;
 }
 img {
     margin-top: 15%;
@@ -73,4 +107,10 @@ img {
 }
 img.shark {
     width: 100%;
+}
+.account {
+    font-size: 16px;
+}
+p {
+    margin-bottom: 25px;
 }
