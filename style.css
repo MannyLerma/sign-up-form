@@ -21,6 +21,7 @@ body {
     height: 700px;
     max-width: 90%;
     overflow: hidden;
+    background-color: #FAFAFA;
 }
 .hero-image {
     background-position: center center;
@@ -106,7 +107,7 @@ img {
     padding: 2%;
 }
 img.shark {
-    width: 100%;
+    width: 50vh;
 }
 .account {
     font-size: 16px;
